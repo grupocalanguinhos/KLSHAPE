@@ -25,7 +25,7 @@
         android:ems="10"
         android:inputType="textPersonName"
         android:layout_marginBottom="44dp"
-        android:layout_above="@+id/btCadastrar"
+        android:layout_above="@+id/btCad"
         android:layout_alignLeft="@+id/email"
         android:layout_alignStart="@+id/email" />
 
@@ -170,7 +170,7 @@
         android:layout_alignStart="@+id/nm" />
 
     <ImageButton
-        android:id="@+id/btCadastrar"
+        android:id="@+id/btCad"
         android:layout_width="150dp"
         android:layout_height="20dp"
         android:background="@android:color/transparent"
@@ -188,8 +188,8 @@
         android:layout_height="wrap_content"
         app:srcCompat="@mipmap/botao_limpar"
         android:background="@android:color/transparent"
-        android:layout_alignTop="@+id/btCadastrar"
-        android:layout_toEndOf="@+id/btCadastrar" />
+        android:layout_alignTop="@+id/btCad"
+        android:layout_toEndOf="@+id/btCad" />
 
     <ImageView
         android:id="@+id/imageView6"

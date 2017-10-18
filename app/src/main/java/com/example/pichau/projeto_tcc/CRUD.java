@@ -13,13 +13,12 @@ public class CRUD {
         Banco = new Banco(context);
     }
 
-    public String inserir(String nome, String idade, String rg, String cpf, String endereco, String email, String senha ){
+    public String inserir(String nome, String rg, String cpf, String endereco, String email, String senha ){
         ContentValues valores;
         long resultado;
         db=Banco.getWritableDatabase();
         valores = new ContentValues();
         valores.put(Banco.NOME, nome);
-        valores.put(Banco.IDADE,idade);
         valores.put(Banco.RG,rg);
         valores.put(Banco.CPF,cpf);
         valores.put(Banco.ENDERECO,endereco);

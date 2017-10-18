@@ -188,7 +188,7 @@
             android:textSize="18sp" />
 
         <ImageButton
-            android:id="@+id/btCadastrar"
+            android:id="@+id/btCad"
             android:layout_width="150dp"
             android:layout_height="20dp"
             android:layout_alignLeft="@+id/textView14"
@@ -204,8 +204,8 @@
             android:id="@+id/imageButton5"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_alignTop="@+id/btCadastrar"
-            android:layout_toEndOf="@+id/btCadastrar"
+            android:layout_alignTop="@+id/btCad"
+            android:layout_toEndOf="@+id/btCad"
             android:background="@android:color/transparent"
             app:srcCompat="@mipmap/botao_limpar" />
 
@@ -384,7 +384,7 @@
         android:layout_alignEnd="@+id/textView4" />
 
     <ImageButton
-        android:id="@+id/btCadastrar"
+        android:id="@+id/btCad"
         android:layout_width="150dp"
         android:layout_height="20dp"
         android:background="@android:color/transparent"
@@ -402,7 +402,7 @@
         android:layout_height="wrap_content"
         android:layout_alignEnd="@+id/imageView5"
         android:layout_alignRight="@+id/imageView5"
-        android:layout_alignTop="@+id/btCadastrar"
+        android:layout_alignTop="@+id/btCad"
         android:background="@android:color/transparent"
         app:srcCompat="@mipmap/botao_limpar" />
 
