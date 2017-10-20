@@ -46,7 +46,11 @@
             android:inputType="textPersonName" />
 
         <EditText
+<<<<<<< Updated upstream
             android:id="@+id/email"
+=======
+            android:id="@+id/et_email"
+>>>>>>> Stashed changes
             android:layout_width="275dp"
             android:layout_height="30dp"
             android:layout_alignLeft="@+id/textView13"
@@ -57,7 +61,11 @@
             android:inputType="textPersonName" />
 
         <EditText
+<<<<<<< Updated upstream
             android:id="@+id/end"
+=======
+            android:id="@+id/et_endereco"
+>>>>>>> Stashed changes
             android:layout_width="275dp"
             android:layout_height="30dp"
             android:layout_alignLeft="@+id/textView4"
@@ -68,7 +76,11 @@
             android:inputType="textPersonName" />
 
         <EditText
+<<<<<<< Updated upstream
             android:id="@+id/cpf"
+=======
+            android:id="@+id/et_cpf"
+>>>>>>> Stashed changes
             android:layout_width="275dp"
             android:layout_height="30dp"
             android:layout_alignLeft="@+id/textView11"
@@ -79,7 +91,11 @@
             android:inputType="textPersonName" />
 
         <EditText
+<<<<<<< Updated upstream
             android:id="@+id/rg"
+=======
+            android:id="@+id/et_rg"
+>>>>>>> Stashed changes
             android:layout_width="275dp"
             android:layout_height="30dp"
             android:layout_alignLeft="@+id/textView11"
@@ -91,7 +107,11 @@
             android:inputType="textPersonName" />
 
         <EditText
+<<<<<<< Updated upstream
             android:id="@+id/nm"
+=======
+            android:id="@+id/et_nome"
+>>>>>>> Stashed changes
             android:layout_width="275dp"
             android:layout_height="30dp"
             android:layout_alignLeft="@+id/textView6"
@@ -105,9 +125,15 @@
             android:id="@+id/textView4"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+<<<<<<< Updated upstream
             android:layout_alignLeft="@+id/email"
             android:layout_alignStart="@+id/email"
             android:layout_below="@+id/email"
+=======
+            android:layout_alignLeft="@+id/et_email"
+            android:layout_alignStart="@+id/et_email"
+            android:layout_below="@+id/et_email"
+>>>>>>> Stashed changes
             android:layout_marginTop="15dp"
             android:foregroundTint="@android:color/background_light"
             android:text="Senha;"
@@ -123,7 +149,11 @@
             android:layout_alignLeft="@+id/textView11"
             android:layout_alignRight="@+id/textView12"
             android:layout_alignStart="@+id/textView11"
+<<<<<<< Updated upstream
             android:layout_below="@+id/end"
+=======
+            android:layout_below="@+id/et_endereco"
+>>>>>>> Stashed changes
             android:layout_marginTop="12dp"
             android:foregroundTint="@android:color/background_light"
             android:text="E-Mail:"
@@ -137,7 +167,11 @@
             android:layout_height="wrap_content"
             android:layout_alignLeft="@+id/textView11"
             android:layout_alignStart="@+id/textView11"
+<<<<<<< Updated upstream
             android:layout_below="@+id/cpf"
+=======
+            android:layout_below="@+id/et_cpf"
+>>>>>>> Stashed changes
             android:layout_marginTop="13dp"
             android:foregroundTint="@android:color/background_light"
             android:text="Endereço:"
@@ -151,7 +185,11 @@
             android:layout_height="wrap_content"
             android:layout_alignEnd="@+id/imageView8"
             android:layout_alignRight="@+id/imageView8"
+<<<<<<< Updated upstream
             android:layout_below="@+id/rg"
+=======
+            android:layout_below="@+id/et_rg"
+>>>>>>> Stashed changes
             android:layout_marginTop="15dp"
             android:foregroundTint="@android:color/background_light"
             android:text="CPF:"
@@ -163,9 +201,15 @@
             android:id="@+id/textView6"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+<<<<<<< Updated upstream
             android:layout_alignLeft="@+id/rg"
             android:layout_alignStart="@+id/rg"
             android:layout_below="@+id/nm"
+=======
+            android:layout_alignLeft="@+id/et_rg"
+            android:layout_alignStart="@+id/et_rg"
+            android:layout_below="@+id/et_nome"
+>>>>>>> Stashed changes
             android:layout_marginTop="13dp"
             android:foregroundTint="@android:color/background_light"
             android:text="RG:"
@@ -188,7 +232,11 @@
             android:textSize="18sp" />
 
         <ImageButton
+<<<<<<< Updated upstream
             android:id="@+id/btCadastrar"
+=======
+            android:id="@+id/btn4"
+>>>>>>> Stashed changes
             android:layout_width="150dp"
             android:layout_height="20dp"
             android:layout_alignLeft="@+id/textView14"
@@ -204,8 +252,13 @@
             android:id="@+id/imageButton5"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+<<<<<<< Updated upstream
             android:layout_alignTop="@+id/btCadastrar"
             android:layout_toEndOf="@+id/btCadastrar"
+=======
+            android:layout_alignTop="@+id/btn4"
+            android:layout_toEndOf="@+id/btn4"
+>>>>>>> Stashed changes
             android:background="@android:color/transparent"
             app:srcCompat="@mipmap/botao_limpar" />
 
@@ -242,7 +295,11 @@
         android:layout_alignStart="@+id/textView4" />
 
     <EditText
+<<<<<<< Updated upstream
         android:id="@+id/email"
+=======
+        android:id="@+id/et_email"
+>>>>>>> Stashed changes
         android:layout_width="275dp"
         android:layout_height="30dp"
         android:background="@color/colorPrimaryDark"
@@ -253,7 +310,11 @@
         android:layout_alignStart="@+id/textView13" />
 
     <EditText
+<<<<<<< Updated upstream
         android:id="@+id/end"
+=======
+        android:id="@+id/et_endereco"
+>>>>>>> Stashed changes
         android:layout_width="275dp"
         android:layout_height="30dp"
         android:background="@color/colorPrimaryDark"
@@ -264,7 +325,11 @@
         android:layout_alignStart="@+id/textView14" />
 
     <EditText
+<<<<<<< Updated upstream
         android:id="@+id/cpf"
+=======
+        android:id="@+id/et_cpf"
+>>>>>>> Stashed changes
         android:layout_width="275dp"
         android:layout_height="30dp"
         android:background="@color/colorPrimaryDark"
@@ -275,7 +340,11 @@
         android:layout_alignStart="@+id/textView11" />
 
     <EditText
+<<<<<<< Updated upstream
         android:id="@+id/rg"
+=======
+        android:id="@+id/et_rg"
+>>>>>>> Stashed changes
         android:layout_width="275dp"
         android:layout_height="30dp"
         android:background="@color/colorPrimaryDark"
@@ -287,7 +356,11 @@
         android:layout_alignStart="@+id/textView11" />
 
     <EditText
+<<<<<<< Updated upstream
         android:id="@+id/nm"
+=======
+        android:id="@+id/et_nome"
+>>>>>>> Stashed changes
         android:layout_width="275dp"
         android:layout_height="30dp"
         android:background="@color/colorPrimaryDark"
@@ -301,9 +374,15 @@
         android:id="@+id/textView4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+<<<<<<< Updated upstream
         android:layout_alignLeft="@+id/email"
         android:layout_alignStart="@+id/email"
         android:layout_below="@+id/email"
+=======
+        android:layout_alignLeft="@+id/et_email"
+        android:layout_alignStart="@+id/et_email"
+        android:layout_below="@+id/et_email"
+>>>>>>> Stashed changes
         android:layout_marginTop="15dp"
         android:foregroundTint="@android:color/background_light"
         android:text="Senha:"
@@ -321,7 +400,11 @@
         android:textColor="@android:color/background_light"
         android:textColorLink="@android:color/background_light"
         android:textSize="18sp"
+<<<<<<< Updated upstream
         android:layout_below="@+id/end"
+=======
+        android:layout_below="@+id/et_endereco"
+>>>>>>> Stashed changes
         android:layout_alignLeft="@+id/textView11"
         android:layout_alignStart="@+id/textView11"
         android:layout_alignRight="@+id/textView12"
@@ -337,7 +420,11 @@
         android:textColor="@android:color/background_light"
         android:textColorLink="@android:color/background_light"
         android:textSize="18sp"
+<<<<<<< Updated upstream
         android:layout_below="@+id/cpf"
+=======
+        android:layout_below="@+id/et_cpf"
+>>>>>>> Stashed changes
         android:layout_alignLeft="@+id/textView11"
         android:layout_alignStart="@+id/textView11" />
 
@@ -351,7 +438,11 @@
         android:textColor="@android:color/background_light"
         android:textColorLink="@android:color/background_light"
         android:textSize="18sp"
+<<<<<<< Updated upstream
         android:layout_below="@+id/rg"
+=======
+        android:layout_below="@+id/et_rg"
+>>>>>>> Stashed changes
         android:layout_alignRight="@+id/imageView8"
         android:layout_alignEnd="@+id/imageView8" />
 
@@ -365,9 +456,15 @@
         android:textColor="@android:color/background_light"
         android:textColorLink="@android:color/background_light"
         android:textSize="18sp"
+<<<<<<< Updated upstream
         android:layout_below="@+id/nm"
         android:layout_alignLeft="@+id/rg"
         android:layout_alignStart="@+id/rg" />
+=======
+        android:layout_below="@+id/et_nome"
+        android:layout_alignLeft="@+id/et_rg"
+        android:layout_alignStart="@+id/et_rg" />
+>>>>>>> Stashed changes
 
     <TextView
         android:id="@+id/textView14"
@@ -384,7 +481,11 @@
         android:layout_alignEnd="@+id/textView4" />
 
     <ImageButton
+<<<<<<< Updated upstream
         android:id="@+id/btCadastrar"
+=======
+        android:id="@+id/btn4"
+>>>>>>> Stashed changes
         android:layout_width="150dp"
         android:layout_height="20dp"
         android:background="@android:color/transparent"
@@ -404,6 +505,11 @@
         android:layout_alignRight="@+id/imageView5"
         android:layout_alignTop="@+id/btCadastrar"
         android:background="@android:color/transparent"
+<<<<<<< Updated upstream
         app:srcCompat="@mipmap/botao_limpar" />
+=======
+        android:layout_alignTop="@+id/btn4"
+        android:layout_toEndOf="@+id/btn4" />
+>>>>>>> Stashed changes
 
 </RelativeLayout>

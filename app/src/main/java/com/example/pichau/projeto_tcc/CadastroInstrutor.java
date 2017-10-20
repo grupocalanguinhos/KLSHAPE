@@ -21,7 +21,7 @@ public class CadastroInstrutor extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_cadastro_instrutor);
         et_nome = (EditText) findViewById(R.id.et_nome);
-        et_idade = (EditText) findViewById(R.id.et_idade);
+        //et_idade = (EditText) findViewById(R.id.et_idade);
         et_rg = (EditText) findViewById(R.id.et_rg);
         et_cpf = (EditText) findViewById(R.id.et_cpf);
         et_endereco = (EditText) findViewById(R.id.et_endereco);

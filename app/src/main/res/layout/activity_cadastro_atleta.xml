@@ -8,6 +8,224 @@
     tools:context="com.example.pichau.projeto_tcc.CadastroAtleta">
 
 
+<<<<<<< Updated upstream
+=======
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/fundo"
+        tools:context="com.example.pichau.projeto_tcc.CadastroAtleta"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:layout_alignLeft="@+id/textView14"
+            android:layout_alignStart="@+id/textView14"
+            android:layout_below="@+id/imageView8"
+            app:srcCompat="@mipmap/opcao_treinador" />
+
+        <ImageView
+            android:id="@+id/imageView8"
+            android:layout_width="80dp"
+            android:layout_height="35dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            app:srcCompat="@mipmap/etapa_2" />
+
+        <EditText
+            android:id="@+id/editText"
+            android:layout_width="275dp"
+            android:layout_height="30dp"
+            android:layout_alignLeft="@+id/textView4"
+            android:layout_alignStart="@+id/textView4"
+            android:layout_alignTop="@+id/textView4"
+            android:layout_marginTop="24dp"
+            android:background="@color/colorPrimaryDark"
+            android:ems="10"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/et_email"
+            android:layout_width="275dp"
+            android:layout_height="30dp"
+            android:layout_alignLeft="@+id/textView13"
+            android:layout_alignStart="@+id/textView13"
+            android:layout_below="@+id/textView13"
+            android:background="@color/colorPrimaryDark"
+            android:ems="10"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/et_endereco"
+            android:layout_width="275dp"
+            android:layout_height="30dp"
+            android:layout_alignLeft="@+id/textView4"
+            android:layout_alignStart="@+id/textView4"
+            android:layout_below="@+id/textView12"
+            android:background="@color/colorPrimaryDark"
+            android:ems="10"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/et_cpf"
+            android:layout_width="275dp"
+            android:layout_height="30dp"
+            android:layout_alignLeft="@+id/textView11"
+            android:layout_alignStart="@+id/textView11"
+            android:layout_below="@+id/textView11"
+            android:background="@color/colorPrimaryDark"
+            android:ems="10"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/et_rg"
+            android:layout_width="275dp"
+            android:layout_height="30dp"
+            android:layout_alignLeft="@+id/textView11"
+            android:layout_alignStart="@+id/textView11"
+            android:layout_alignTop="@+id/textView6"
+            android:layout_marginTop="21dp"
+            android:background="@color/colorPrimaryDark"
+            android:ems="10"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/et_nome"
+            android:layout_width="275dp"
+            android:layout_height="30dp"
+            android:layout_alignLeft="@+id/textView6"
+            android:layout_alignStart="@+id/textView6"
+            android:layout_below="@+id/textView14"
+            android:background="@color/colorPrimaryDark"
+            android:ems="10"
+            android:inputType="textPersonName" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/et_email"
+            android:layout_alignStart="@+id/et_email"
+            android:layout_below="@+id/et_email"
+            android:layout_marginTop="15dp"
+            android:foregroundTint="@android:color/background_light"
+            android:text="Senha;"
+            android:textColor="@android:color/background_light"
+            android:textColorLink="@android:color/background_light"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/textView12"
+            android:layout_alignLeft="@+id/textView11"
+            android:layout_alignRight="@+id/textView12"
+            android:layout_alignStart="@+id/textView11"
+            android:layout_below="@+id/et_endereco"
+            android:layout_marginTop="12dp"
+            android:foregroundTint="@android:color/background_light"
+            android:text="E-Mail:"
+            android:textColor="@android:color/background_light"
+            android:textColorLink="@android:color/background_light"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView11"
+            android:layout_alignStart="@+id/textView11"
+            android:layout_below="@+id/et_cpf"
+            android:layout_marginTop="13dp"
+            android:foregroundTint="@android:color/background_light"
+            android:text="Endereço:"
+            android:textColor="@android:color/background_light"
+            android:textColorLink="@android:color/background_light"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/imageView8"
+            android:layout_alignRight="@+id/imageView8"
+            android:layout_below="@+id/et_rg"
+            android:layout_marginTop="15dp"
+            android:foregroundTint="@android:color/background_light"
+            android:text="CPF:"
+            android:textColor="@android:color/background_light"
+            android:textColorLink="@android:color/background_light"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/et_rg"
+            android:layout_alignStart="@+id/et_rg"
+            android:layout_below="@+id/et_nome"
+            android:layout_marginTop="13dp"
+            android:foregroundTint="@android:color/background_light"
+            android:text="RG:"
+            android:textColor="@android:color/background_light"
+            android:textColorLink="@android:color/background_light"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/textView14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/textView4"
+            android:layout_alignRight="@+id/textView4"
+            android:layout_below="@+id/imageView5"
+            android:layout_marginTop="23dp"
+            android:foregroundTint="@android:color/background_light"
+            android:text="Nome:"
+            android:textColor="@android:color/background_light"
+            android:textColorLink="@android:color/background_light"
+            android:textSize="18sp" />
+
+        <ImageButton
+            android:id="@+id/btn4"
+            android:layout_width="150dp"
+            android:layout_height="20dp"
+            android:layout_alignLeft="@+id/textView14"
+            android:layout_alignParentBottom="true"
+            android:layout_alignStart="@+id/textView14"
+            android:layout_marginBottom="18dp"
+            android:layout_marginLeft="14dp"
+            android:layout_marginStart="14dp"
+            android:background="@android:color/transparent"
+            app:srcCompat="@mipmap/botao_cadastro" />
+
+        <ImageButton
+            android:id="@+id/imageButton5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/btn4"
+            android:layout_toEndOf="@+id/btn4"
+            android:background="@android:color/transparent"
+            app:srcCompat="@mipmap/botao_limpar" />
+
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        app:srcCompat="@mipmap/opcao_treinador"
+        android:layout_below="@+id/imageView8"
+        android:layout_alignLeft="@+id/textView14"
+        android:layout_alignStart="@+id/textView14" />
+
+>>>>>>> Stashed changes
     <ImageView
         android:id="@+id/imageView8"
         android:layout_width="80dp"
@@ -18,11 +236,20 @@
         app:srcCompat="@mipmap/etapa_2" />
 
     <EditText
+<<<<<<< Updated upstream
         android:id="@+id/senha"
+=======
+        android:id="@+id/et_senha"
+>>>>>>> Stashed changes
         android:layout_width="275dp"
         android:layout_height="30dp"
+        android:layout_alignLeft="@+id/textView4"
+        android:layout_alignStart="@+id/textView4"
+        android:layout_alignTop="@+id/textView4"
+        android:layout_marginTop="24dp"
         android:background="@color/colorPrimaryDark"
         android:ems="10"
+<<<<<<< Updated upstream
         android:inputType="textPersonName"
         android:layout_marginBottom="44dp"
         android:layout_above="@+id/btCadastrar"
@@ -31,6 +258,12 @@
 
     <EditText
         android:id="@+id/email"
+=======
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/et_email"
+>>>>>>> Stashed changes
         android:layout_width="275dp"
         android:layout_height="30dp"
         android:background="@color/colorPrimaryDark"
@@ -42,7 +275,11 @@
         android:layout_marginBottom="20dp" />
 
     <EditText
+<<<<<<< Updated upstream
         android:id="@+id/end"
+=======
+        android:id="@+id/et_endereco"
+>>>>>>> Stashed changes
         android:layout_width="275dp"
         android:layout_height="30dp"
         android:background="@color/colorPrimaryDark"
@@ -54,7 +291,11 @@
         android:layout_marginBottom="16dp" />
 
     <EditText
+<<<<<<< Updated upstream
         android:id="@+id/cpf"
+=======
+        android:id="@+id/et_cpf"
+>>>>>>> Stashed changes
         android:layout_width="275dp"
         android:layout_height="30dp"
         android:background="@color/colorPrimaryDark"
@@ -66,7 +307,11 @@
         android:layout_marginBottom="12dp" />
 
     <EditText
+<<<<<<< Updated upstream
         android:id="@+id/rg"
+=======
+        android:id="@+id/et_rg"
+>>>>>>> Stashed changes
         android:layout_width="275dp"
         android:layout_height="30dp"
         android:background="@color/colorPrimaryDark"
@@ -78,7 +323,11 @@
         android:layout_marginBottom="15dp" />
 
     <EditText
+<<<<<<< Updated upstream
         android:id="@+id/nm"
+=======
+        android:id="@+id/et_nome"
+>>>>>>> Stashed changes
         android:layout_width="275dp"
         android:layout_height="30dp"
         android:background="@color/colorPrimaryDark"
@@ -93,10 +342,17 @@
         android:id="@+id/textView4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+<<<<<<< Updated upstream
         android:layout_alignBottom="@+id/senha"
         android:layout_alignEnd="@+id/textView14"
         android:layout_alignRight="@+id/textView14"
         android:layout_marginBottom="26dp"
+=======
+        android:layout_alignLeft="@+id/et_email"
+        android:layout_alignStart="@+id/et_email"
+        android:layout_below="@+id/et_email"
+        android:layout_marginTop="15dp"
+>>>>>>> Stashed changes
         android:foregroundTint="@android:color/background_light"
         android:text="Senha:"
         android:textColor="@android:color/background_light"
@@ -112,9 +368,17 @@
         android:textColor="@android:color/background_light"
         android:textColorLink="@android:color/background_light"
         android:textSize="18sp"
+<<<<<<< Updated upstream
         android:layout_above="@+id/email"
         android:layout_alignLeft="@+id/textView12"
         android:layout_alignStart="@+id/textView12" />
+=======
+        android:layout_below="@+id/et_endereco"
+        android:layout_alignLeft="@+id/textView11"
+        android:layout_alignStart="@+id/textView11"
+        android:layout_alignRight="@+id/textView12"
+        android:layout_alignEnd="@+id/textView12" />
+>>>>>>> Stashed changes
 
     <TextView
         android:id="@+id/textView12"
@@ -125,9 +389,15 @@
         android:textColor="@android:color/background_light"
         android:textColorLink="@android:color/background_light"
         android:textSize="18sp"
+<<<<<<< Updated upstream
         android:layout_above="@+id/end"
         android:layout_alignLeft="@+id/cpf"
         android:layout_alignStart="@+id/cpf" />
+=======
+        android:layout_below="@+id/et_cpf"
+        android:layout_alignLeft="@+id/textView11"
+        android:layout_alignStart="@+id/textView11" />
+>>>>>>> Stashed changes
 
     <TextView
         android:id="@+id/textView11"
@@ -138,7 +408,11 @@
         android:textColor="@android:color/background_light"
         android:textColorLink="@android:color/background_light"
         android:textSize="18sp"
+<<<<<<< Updated upstream
         android:layout_above="@+id/cpf"
+=======
+        android:layout_below="@+id/et_rg"
+>>>>>>> Stashed changes
         android:layout_alignRight="@+id/imageView8"
         android:layout_alignEnd="@+id/imageView8" />
 
@@ -151,10 +425,16 @@
         android:textColor="@android:color/background_light"
         android:textColorLink="@android:color/background_light"
         android:textSize="18sp"
+<<<<<<< Updated upstream
         android:layout_above="@+id/textView11"
         android:layout_alignLeft="@+id/rg"
         android:layout_alignStart="@+id/rg"
         android:layout_marginBottom="38dp" />
+=======
+        android:layout_below="@+id/et_nome"
+        android:layout_alignLeft="@+id/et_rg"
+        android:layout_alignStart="@+id/et_rg" />
+>>>>>>> Stashed changes
 
     <TextView
         android:id="@+id/textView14"
@@ -170,7 +450,11 @@
         android:layout_alignStart="@+id/nm" />
 
     <ImageButton
+<<<<<<< Updated upstream
         android:id="@+id/btCadastrar"
+=======
+        android:id="@+id/btn4"
+>>>>>>> Stashed changes
         android:layout_width="150dp"
         android:layout_height="20dp"
         android:background="@android:color/transparent"
@@ -188,6 +472,7 @@
         android:layout_height="wrap_content"
         app:srcCompat="@mipmap/botao_limpar"
         android:background="@android:color/transparent"
+<<<<<<< Updated upstream
         android:layout_alignTop="@+id/btCadastrar"
         android:layout_toEndOf="@+id/btCadastrar" />
 
@@ -198,5 +483,9 @@
         android:layout_below="@+id/imageView8"
         android:layout_centerHorizontal="true"
         app:srcCompat="@mipmap/opcao_aluno" />
+=======
+        android:layout_alignTop="@+id/btn4"
+        android:layout_toEndOf="@+id/btn4" />
+>>>>>>> Stashed changes
 
 </RelativeLayout>
